@@ -1,0 +1,11 @@
+S&B Android uygulama simgesi
+
+Bu paket, mevcut Bütçe Takip projesine S&B cüzdan simgesini entegre eder.
+
+1. ZIP içeriğini GitHub repository ana dizinine yükleyin; mevcut dosyaları güncelleyin.
+2. assets/ klasörü, package.json ve .github/workflows/build-android.yml dosyaları özellikle eklenmiş olmalı.
+3. GitHub Actions > Bütçe Takip APK > Run workflow ile yeniden derleyin.
+4. Actions Artifacts bölümünden yeni APK'yı indirin.
+5. Telefonda eski uygulamayı yeni APK ile güncelleyin. Android bazen eski simgeyi önbellekte gösterebilir; gerekirse ana ekrandaki kısayolu kaldırıp tekrar ekleyin.
+
+Kaynak PNG: 1024×1024. Android adaptive icon ön planı güvenli orta alanda tutulmuştur. Farklı ekran yoğunlukları için gerekli Android boyutları derleme sırasında @capacitor/assets tarafından oluşturulur.
